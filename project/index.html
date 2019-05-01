@@ -12,9 +12,11 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -32,19 +34,19 @@
   <div class="collapse" id="navbarToggleExternalContent">
     <div class="bg-white p-4" id="menu">
                  <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item" type="square">
+          <li class="nav-item" >
             <a class="navbar-toggler js-scroll-trigger" href="#services">Desmatamento</a>
           </li>
-          <li class="nav-item" type="square">
+          <li class="nav-item" >
             <a class="navbar-toggler js-scroll-trigger " href="#portfolio">Poluição Maritima</a>
           </li>
-          <li class="nav-item" type="square">
+          <li class="nav-item" >
             <a class="navbar-toggler js-scroll-trigger"  href="#about">Descarte</a>
           </li>
-          <li class="nav-item" type="square">
+          <li class="nav-item" >
             <a class="navbar-toggler js-scroll-trigger" href="#team">Equipe</a>
           </li>
-          <li class="nav-item" type="square">
+          <li class="nav-item" >
             <a class="navbar-toggler js-scroll-trigger" href="#contact">Contato</a>
           </li>
         </ul>
@@ -90,7 +92,8 @@
             <i class="fas fa fa-tree fa-stack-1x fa-inverse" aria-hidden="true"></i>
           </span>
           <h4 class="service-heading">Desmatamento</h4>
-          <h3 class="numArbor">0<span>Árvores desmatadas !</span></h3>
+          <h3 class="numArbor">0</h3>
+          <h4 class="text-description">Árvores derrubadas !</h4>
           <p>Amazônia perdeu mais de 2000 árvores por minuto nos últimos 40 anos </p>
         </div>
         <div class="col-md-4">
@@ -213,13 +216,16 @@
 
   <!-- About -->
   <section id="about">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Pontos de descarte</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <div id="map"></div>
+        </div>
         </div>
       </div>
+      <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <ul class="timeline">
@@ -748,13 +754,17 @@
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>    
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+    <!--JS do mapa-->
+    
+    <script src="js/mapa.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5V0MaO6WRvPt5wcM9IssBIVjZqvTc1Y4&callback=initMap"async defer></script>
     <!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>

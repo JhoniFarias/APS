@@ -53,6 +53,11 @@ section h3.section-subheading {
   text-transform: none;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
+#map  {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 2em;
+}
 
 @media (min-width: 768px) {
   section {
@@ -83,8 +88,10 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem color:darkgreen !important;
-  box-shadow: 0 0 0 0.2rem color:darkgreen !important;
+  -webkit-box-shadow: 0 0 0 0.2rem;
+  color:darkgreen !important;
+  box-shadow: 0 0 0 0.2rem;
+  color:darkgreen !important;
 }
 
 ::selection {
@@ -106,7 +113,6 @@ img::-moz-selection {
   left: 0;
   padding: 10px;
   text-transform: uppercase;
-
   border: 0;
   color: #1c7531;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -124,7 +130,11 @@ img::-moz-selection {
   background-color:transparent;
   border: none;
 }
-
+.nav-item{
+  
+  padding: 20px;
+  text-align: center;
+}
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
   font-weight: 300;
@@ -136,6 +146,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: darkgreen;
+ 
 }
 .btnMenu{
   margin-left: 3em;
@@ -709,5 +720,8 @@ li{
   }
 .numArbor{
   color: darkgreen;
-  font size: 60px;
+  font-size: 25px;
+}
+.text-description{
+  color: darkgreen;
 }
