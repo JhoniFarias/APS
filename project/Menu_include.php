@@ -9,7 +9,8 @@
   <meta name="author" content="Gustavo lira/jhoni farias/fabio lima/jonas/matheys/luan santos">
 
   <title>Sustentabilidade Ambiental</title>
-
+   
+  <link rel="stylesheet" type="text/css" href="css/artigo.css">
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -35,19 +36,22 @@
     <div class="bg-white p-4" id="menu">
                  <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item" >
-            <a class="navbar-toggler js-scroll-trigger" href="#services">Desmatamento</a>
+            <a class="navbar-toggler js-scroll-trigger" href="index.php#services">Desmatamento</a>
           </li>
           <li class="nav-item" >
-            <a class="navbar-toggler js-scroll-trigger " href="#portfolio">Poluição Maritima</a>
+            <a class="navbar-toggler js-scroll-trigger " href="index.php#portfolio">Poluição Maritima</a>
           </li>
           <li class="nav-item" >
-            <a class="navbar-toggler js-scroll-trigger"  href="#about">Descarte</a>
+            <a class="navbar-toggler js-scroll-trigger"  href="index.php#about">Descarte</a>
           </li>
           <li class="nav-item" >
-            <a class="navbar-toggler js-scroll-trigger" href="#team">Equipe</a>
+            <a class="navbar-toggler js-scroll-trigger" href="index.php#team">Equipe</a>
           </li>
           <li class="nav-item" >
-            <a class="navbar-toggler js-scroll-trigger" href="#contact">Contato</a>
+            <a class="navbar-toggler js-scroll-trigger" href="index.php#contact">Contato</a>
+          </li>
+            <li class="nav-item" >
+            <a class="navbar-toggler js-scroll-trigger" href="artigos.php">Artigos</a>
           </li>
         </ul>
         <hr color="darkgreen">
