@@ -21,7 +21,9 @@
 <body id="page-top">
 
   <!-- Navigation -->
-
+<?php
+  include_once('menu_include.php');
+?>
 
   <header class="bg-primary text-white">
     <div class="container text-center">
