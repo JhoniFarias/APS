@@ -53,6 +53,10 @@
             <li class="nav-item" >
             <a class="navbar-toggler js-scroll-trigger" href="artigos.php">Artigos</a>
           </li>
+          </li>
+            <li class="nav-item" >
+            <a class="navbar-toggler js-scroll-trigger" href="quem somos.php">Quem Somos</a>
+          </li>
         </ul>
         <hr color="darkgreen">
      <div class="collapse navbar-collapse" id="navbarResponsive">   
